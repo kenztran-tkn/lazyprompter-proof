@@ -1,0 +1,14 @@
+{
+  "snapshot": "2026-08-29",
+  "origin_commit": "81cf25e6a19f07970ef7fd5cb56f54d97afd4f82",
+  "qualification_date": "2026-09-17",
+  "normalization": "CRLF to LF only; no trimming or JSON rewriting",
+  "sha256_lf_text": {
+    "ledger-moat-2026-08-29.jsonl": "34aefb13a60904eaa5e8382950ba8a593c5a38e2c11b12e58ed7e0d26418dc86",
+    "ledger-blogspec-2026-08-29.jsonl": "3454ca407656f90a8e2ffece22998c30ffc989d663ca113e1e658fda3f1743af",
+    "ledger-blogaxes-2026-08-29.jsonl": "6f9f60ed97996be22f9c1d189f4f469dcce8045dc93b8ccd61941fae5c493085",
+    "proof-2026-08-29.md": "e8fc0d2ac1dc646ddd60a3d562bb63c53b6cdef91d3ba3480148860292a00dc6",
+    "what-changed-2026-08-29.md": "7c72a06208ca40d1f95c2595070af2eb561e276aa940d26920c9c469e05034f4",
+    "recount-2026-08-29.txt": "708254b193c1b2e0fec21eb909578bce2ec8b320d9f05d37c0120d763f7ea723"
+  }
+}

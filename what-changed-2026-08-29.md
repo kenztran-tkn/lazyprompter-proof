@@ -1,3 +1,5 @@
+> **Bản ghi lịch sử ngày 29/08/2026.** “Đang chạy”, “prod” và những nhận định về bản triển khai bên dưới thuộc ngày đo đó. Các số đã rút vẫn bị rút; đây không phải bằng chứng mới cho engine hiện tại. Xem [STATUS.md](STATUS.md).
+
 # BỘ MẪU BÀI BLOG PROOF, dựng lại trên CẶP ENGINE ĐANG CHẠY. 2026-08-29
 
 **Đọc câu này trước khi đăng bài:** trong bốn con số bài blog đang công bố, **hai cái đứng vững, một cái ĐỔ, một cái không dựng lại được bằng cách nào cả.** Bài không được đăng nguyên trạng.
@@ -71,4 +73,4 @@ Cái đáng sửa là chỗ thứ hai, và nó ăn khớp với chuyện em-dash
 
 ## Đếm lại
 
-Bộ đo chạy trên hai file engine không công bố, nên phần chạy lại từ đầu là việc nội bộ. Phần AI cũng kiểm được: chạy `python3 recount.py` trong thư mục này, nó tính lại mọi con số ở trên thẳng từ ledger, không cần thư viện gì và không cần quyền gì.
+Bộ đo chạy trên hai file engine không công bố. `python3 recount.py` tính lại các mục được liệt kê trong đầu ra từ verdict đã lưu; không chạy lại bộ chấm và không xác nhận mọi câu/đoạn trích trong bài. `python3 verify_snapshot.py` đối chiếu danh tính tệp snapshot và bản tóm tắt đã giữ, không chứng minh kết quả cho engine mới.
