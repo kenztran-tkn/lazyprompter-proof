@@ -1,0 +1,30 @@
+MEASURED AGAINST: a strong AI asked to write the prompt for you, same model, same batch.
+
+axis                                     Lazy Prompter   ask an AI         p
+media prompt language                            58/59        0/30   6.9e-23
+negation in image prompts                        34/36        2/18     1e-09
+partial-bundle acceptance                        20/23       10/12         1
+machine-readable contract                      118/118        0/60          
+
+CONTROL: two arms running the SAME engine text scored 59/59 and 53/59.
+They differ by 10.2 points, so that is this batch's noise floor.
+Anything closer than that is a tie no matter what the table says.
+
+EM-DASHES, two tasks, two models:
+  LP         12 across 20 runs
+  LIBRARY    41 across 20 runs
+  META       44 across 20 runs
+  NAIVE      19 across 20 runs
+
+EMAIL, of 10 runs:
+  signed off                    LP 10  LIBRARY 5  META 6  NAIVE 5
+  "hope this finds you well"    LP 3  LIBRARY 10  META 10  NAIVE 10
+
+NAMED SECTIONS across 10 agent types and five languages:
+  Lazy Prompter [8, 8, 8, 8, 8, 8, 8, 8, 8, 8]  variance 0.00
+  ask an AI     [10, 7, 0, 11, 10, 14, 11, 15, 14, 15]  variance 18.81
+
+WHAT TIED, published because a page that only wins is not evidence:
+  holding scope when charmed off-task   6/6 vs 6/6
+  agent written in the frame language   5/6 vs 4/6
+  prose quality: historical panel tie is reported in the narrative, not recomputed from these ledgers.

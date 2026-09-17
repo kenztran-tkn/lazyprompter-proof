@@ -18,5 +18,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Recompute every published figure from retained ledgers
+      - name: Recompute selected stored-verdict summary
         run: python3 recount.py
+      - name: Verify retained snapshot and summary
+        run: python3 verify_snapshot.py
+      - name: Refuse corrupted snapshot inputs
+        run: python3 -m unittest discover -s tests -p 'test_*.py' -v

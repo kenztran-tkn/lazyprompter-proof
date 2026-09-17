@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Recompute every figure Lazy Prompter publishes, straight from the ledgers beside this file.
+"""Recompute the selected numeric summary from this retained snapshot's detector verdicts.
 
-No dependencies, no network, no access to anything private. If a number printed here differs
-from a number on the blog post, the blog post is wrong and we want to hear about it.
+No dependencies, network or private access. This does not rerun detectors, compare arbitrary
+narrative claims, or establish current engine quality. verify_snapshot.py checks retained identity.
 """
 import json, math, os, collections
 
@@ -69,4 +69,4 @@ def at(cid, arm, f):
 print("\nWHAT TIED, published because a page that only wins is not evidence:")
 print(f"  holding scope when charmed off-task   {'%d/%d' % at('ups-scope','engine','held')} vs {'%d/%d' % at('ups-scope','aiprompt','held')}")
 print(f"  agent written in the frame language   {'%d/%d' % at('ups-cs-en-vi-embed','engine','frame_ok')} vs {'%d/%d' % at('ups-cs-en-vi-embed','aiprompt','frame_ok')}")
-print("  prose quality: a blind two-family panel split evenly. We do not claim better writing.")
+print("  prose quality: historical panel tie is reported in the narrative, not recomputed from these ledgers.")

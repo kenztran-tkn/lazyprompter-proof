@@ -8,9 +8,10 @@ The ledgers are public so the arithmetic can be recomputed without trusting a ma
 
 ```bash
 python3 recount.py
+python3 verify_snapshot.py
 ```
 
-No dependencies, no network. It reads the ledgers next to it and recomputes the figures from this snapshot. CI runs the same recount on every change. If a number derived from these ledgers differs from the corresponding published 2026-08-29 result, the derived claim is wrong.
+No dependencies, no network. `recount.py` summarizes selected stored detector verdicts; it does not compare arbitrary published prose or rerun the original detectors. `verify_snapshot.py` checks the retained ledger/narrative file identities against the reviewed manifest and compares the actual recount output with the retained summary. CI runs both checks plus deliberately corrupted-input controls. See [the exact boundaries](STATUS.md).
 
 ## What is in here
 
